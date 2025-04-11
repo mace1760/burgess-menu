@@ -53,7 +53,7 @@ a {
 
 a:hover {
     /* Changes the color of the text when hovering over it */
-    color: blue;
+    color: rgb(0, 132, 255);
 }
 
 nav {
