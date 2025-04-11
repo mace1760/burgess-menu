@@ -11,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    background-color: rgb(247, 233, 196);
+    background-color: rgb(247, 233, 197);
     display: flex;
     justify-content: space-between;
     flex-direction: column ;
