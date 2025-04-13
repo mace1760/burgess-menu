@@ -1,0 +1,135 @@
+:root {
+    
+}
+
+/* Body */
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    /* sizing */
+    width: 100%;
+    height: 100%;
+
+    /* Coloring */
+    background-color: tan;
+    color: black;
+    background: linear-gradient(
+        90deg,
+        rgb(160, 123, 75),
+        rgb(232, 204, 156) 50%,
+        rgb(160, 123, 75) 100%
+    );
+
+    /* aligning */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* Positioning */
+}
+
+/* sections */
+.main-nav-section {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 20px; */
+
+}
+
+.page-nav-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+} 
+
+h1 {
+    /* Centers the header better, not needed */
+    width: 300px;
+    text-align: center;
+    /* position: absolute; */
+}
+
+nav {
+    /*  The 4 sections will always have 75% of the nav header*/
+    width: 75%;
+  
+    /* Centers nav bar, not a big difference */
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    /* Gets rid of the bullets */
+    list-style: none;
+}
+
+li {
+    font-size: large;
+}
+
+a {
+    /* Changes link texts color */
+    text-decoration: none;
+    color: black;
+}
+
+.main-attachment {
+    font-size: 30px;
+    border: 0 5px 0 5px;
+
+}
+
+a:hover {
+    /* Changes the color of the text when hovering over it */
+    color: blue;
+}
+
+/* Nav  */
+
+nav {
+    /*  The 4 sections will always have 75% of the nav header*/
+    width: 75%;
+  
+    /* Centers nav bar, not a big difference */
+    display: flex;
+    align-items: center;
+}
+
+/* .main-nav {
+    font-size: 50px;
+} */
+
+nav > ul {
+    /* Spaces the chooices */
+    display: flex;
+    justify-content: space-evenly;
+  
+    /* Items stay on page even if squished */
+    flex-wrap: wrap;
+    width: 100%;
+  
+  }
+
+  /* main */
+
+main {
+
+    background: linear-gradient(
+        90deg,
+        rgb(160, 123, 75),
+        rgb(232, 204, 156) 50%,
+        rgb(160, 123, 75) 100%
+    );
+
+}
