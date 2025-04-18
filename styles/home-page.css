@@ -56,15 +56,6 @@ a:hover {
     color: blue;
 }
 
-nav {
-    /*  The 4 sections will always have 75% of the nav header*/
-    width: 75%;
-  
-    /* Centers nav bar, not a big difference */
-    display: flex;
-    align-items: center;
-}
-
 nav > ul {
     /* Spaces the chooices */
     display: flex;
