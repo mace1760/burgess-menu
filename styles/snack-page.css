@@ -3,7 +3,7 @@
     --menu-color2: rgb(223, 179, 104);
 }
 
-/* Body */
+/* ---------- Body ----------*/
 
 body {
     background-color: black;
@@ -29,7 +29,7 @@ nav, h2, h1 {
     margin: 0;
 }
 
-/* Header */
+/* ---------- Header ---------- */
 
 header {
     /* sizing */
@@ -143,7 +143,7 @@ nav > ul {
   
   }
 
-  /* main */
+  /* ---------- Main ---------- */
 
 main {
 
@@ -193,7 +193,7 @@ hr {
     height: 20px;
 }
 
-/* Media */
+/* ---------- Media ---------- */
 
 @media (min-width: 1000px) {
     body{
