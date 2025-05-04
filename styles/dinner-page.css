@@ -50,6 +50,16 @@ header {
     /* Positioning */
 }
 
+.home-btn {
+    background-color: var(--menu-color1); /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    height: 50px;
+    width: 50px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
 h1 {
     font-size: 40px;
     /* Centers the header better, not needed */
