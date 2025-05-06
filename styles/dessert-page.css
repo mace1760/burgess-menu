@@ -1,0 +1,110 @@
+header {
+    /* sizing */
+    width: 100%;
+    height: 100px;
+
+    /* aligning */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+
+    /* Positioning */
+}
+h1 {
+    font-size: 40px;
+    /* Centers the header better, not needed */
+    width: 300px;
+    text-align: center;
+
+}
+
+h1, h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav {
+    /*  The 4 sections will always have 75% of the nav header*/
+    width: 75%;
+}
+
+ul{
+    /* Gets rid of the bullets */
+    list-style: none;
+}
+
+li {
+    font-size: large;
+}
+
+a {
+    /* Changes link texts color */
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav-section {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.menu-nav {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    
+    /* Border */
+    border-bottom: 2px solid black;
+}
+
+.ma1, .ma3 {
+
+    /* borders */
+    border-width: 0 2px;
+    border-color: black;
+    border-style: solid;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.main-attachment {
+    /* Fonts */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a:hover {
+    /* Changes the color of the text when hovering over it */
+    color: rgb(238, 98, 42);
+}
+
+nav > ul {
+    /* Spaces the chooices */
+    display: flex;
+    justify-content: space-evenly;
+  
+    /* Items stay on page even if squished */
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  
+}
+
+.home-btn {
+    background-color: white;
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    height: 50px;
+    width: 50px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
