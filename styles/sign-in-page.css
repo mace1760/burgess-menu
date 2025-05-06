@@ -1,0 +1,46 @@
+/* Header */
+
+.home-btn {
+    background-color: var(--menu-color1); /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    height: 50px;
+    width: 50px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.top-header{
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    margin-bottom: 0;;
+}
+.bottom-header{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.fname {
+    margin-top: 50px;;
+}
+
+input[type=text], input[type=password] {
+    background-color: aliceblue;
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: black;
+}
