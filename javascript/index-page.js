@@ -46,3 +46,16 @@ if (hour >= 18) {
         $("#menu-link").attr("href", "dessert-menu.html");
     });
 }
+
+$(document).ready(function () {
+    let counter = 28;
+
+    $(".calendar-cell").each(function () {
+        $(this).text(counter); // Add day number
+        counter++;
+        if (counter == 31) {
+            counter = 1;
+        }
+    });
+});
+
