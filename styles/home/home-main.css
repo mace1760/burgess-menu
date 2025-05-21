@@ -1,0 +1,25 @@
+/* Main */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.breakfast {
+    /* Margins */
+    margin-top: 60px;;
+
+    /* Sizing */
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+button {
+    appearance: none;
+}
