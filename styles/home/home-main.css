@@ -66,4 +66,14 @@ p {
         gap: 5px;
     }
 
+    .normal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }

@@ -20,5 +20,7 @@ key = 1;
 if (hour = 1) {
     $(document).ready(function () {
         $("#breakfast-link").attr("href", "menus/mediterranean/mediterranean-breakfast1.html");
+        $("#lunch-link").attr("href", "menus/mediterranean/mediterranean-lunch1.html");
+        $("#dinner-link").attr("href", "menus/mediterranean/mediterranean-lunch1.html");
     });
 }
