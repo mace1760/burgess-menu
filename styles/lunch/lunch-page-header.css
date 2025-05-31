@@ -4,7 +4,7 @@ header {
 
     /* sizing */
     width: 100%;
-    height: 100px;
+    height: auto;
 
     /* aligning */
     display: flex;
@@ -114,4 +114,20 @@ nav > ul {
     width: 50px;
     font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* -------------------- Media -------------------- */
+
+@media (max-width: 600px) {
+
+    .main-nav-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .home-btn {
+        padding-right: 350px ;
+    }
+
 }

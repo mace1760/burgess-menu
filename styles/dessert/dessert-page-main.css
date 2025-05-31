@@ -1,7 +1,11 @@
 /* Main */
 
+html {
+    background-color: black;
+}
+
 main {
-    background-color: rgb(119, 148, 243);
+    background-color: rgb(122, 172, 133);
     margin-top: 0;
 }
 
@@ -67,6 +71,9 @@ p {
 /* Media */
 
 @media (max-width: 600px) {
+    img {
+        display: none;
+    }
 
     div {
         width: 100%;

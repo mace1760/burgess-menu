@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
 header {
+
+    background-color: rgb(122, 172, 133);
+
     /* sizing */
     width: 100%;
     height: 100px;
@@ -9,7 +10,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
+    flex-direction: column;
+    margin: 0px !important; 
+
+    /* Positioning */
 }
 h1 {
     font-size: 40px;
@@ -24,6 +28,10 @@ h1, h2 {
     display: flex;
     justify-content: center;
     margin: 0;
+}
+
+h3 {
+    /* margin: 0; */
 }
 
 nav {
@@ -98,39 +106,12 @@ nav > ul {
   
 }
 
-/* ---------- Buttons ---------- */
-
-/* Button positioning */
-
-.home-btn, .hamburger {
-    position: relative;
-    top: -20px;
-}
-
-/* Button Setup */
-
 .home-btn {
-    background-color: white;
+    background-color: rgb(122, 172, 133);
     border: none; /* Remove borders */
     color: black; /* White text */
     height: 50px;
     width: 50px;
-    font-size: 2vw; /* Set a font size */
+    font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
 }
-
-.hamburger {
-    width: 2vw;
-    height: .25vh;
-    background-color: black;
-    margin: 6px 0;
-}
-
-.hamburger-btn {
-    background-color: white;
-    border: none;
-}
-
-/* Button Actions */
-
-b

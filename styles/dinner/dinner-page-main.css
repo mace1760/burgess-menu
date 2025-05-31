@@ -71,9 +71,7 @@ p {
 /* Media */
 
 @media (max-width: 600px) {
-    img {
-        display: none;
-    }
+
 
     div {
         width: 100%;
