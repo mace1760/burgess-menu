@@ -1,5 +1,9 @@
 /* Main */
 
+html {
+    background-color: black;
+}
+
 main {
     background-color: gray;
     margin-top: 0;
