@@ -13,14 +13,23 @@
             <h1>Burgess Menu</h1>
             <nav>
                 <ul>
-                    <li><a href="sign-in.html"> Sign In </a></li>
+                    <!-- <li><a href="sign-in.html"> Sign In </a></li> -->
+                    <li>
+                        <select id="food-type">
+                            <option value="mediterranean" selected>Mediterranean</option>
+                            <option value="italian">Italian</option>
+                            <!-- <option value="mexican">Mexican</option>
+                            <option value="greek">Greek</option>
+                            <option value="indian">Indian</option> -->
+                        </select>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main>
 
-            <h2>Greek Menu Week!</h2>
+            <h2 id="menu-title"></h2>
 
             <!-- -------------------- Breakfast -------------------- -->
 
@@ -28,15 +37,16 @@
 
                 <div class="breakfast-div">
                     <h3 class="breakfast-header"><a id="breakfast-link">Breakfast Menu</a></h3>
-                    <img src="images/mediterranean/breakfast/spinach-and-eggs.png" alt="Picture of french toast">
+                    <img id="br-img">
                 </div>
 
                 <div>
-                    <p class="desc-title">Spinach & Egg Scramble with Raspberries</p>
-                    <p class="breakfast-desc desc">
-                        A quick and wholesome breakfast featuring fluffy scrambled eggs with sautéed spinach, served 
-                        alongside hearty whole-grain toast and fresh raspberries for a touch of sweetness.
-                    </p>
+
+                    <p class="desc-title" id="br-title-1"></p>
+                    <p class="breakfast-desc desc" id="br-desc-1"></p>
+
+                    <p class="desc-title" id="br-title-2"></p>
+                    <p class="breakfast-desc desc" id="br-desc-2"></p>
                 
                 </div>
 
@@ -47,23 +57,18 @@
             <section class="reverse">
 
                 <div>
-                    <p class="desc-title"> Every Day Mediterranean Salad </p>
-                    <p class="desc"> 
-                        A fresh, flavorful salad packed with crunchy veggies, hearty chickpeas, tangy feta, and roasted red peppers, all 
-                        tossed in a zesty Greek vinaigrette — perfect for a light lunch or easy side dish.
-                    </p>
+                    
+                    <p class="desc-title" id="lunch-title-1"></p>
+                    <p class="desc" id="lunch-desc-1"></p>
 
-                    <p class="desc-title">Turmeric Chicken & Avocado Wraps </p>
-                    <p class="breakfast-desc desc">
-                        Shredded chicken, chickpeas, walnuts, and raisins tossed in a spiced yogurt-mayo blend, 
-                        wrapped with avocado and spring greens in a whole-wheat tortilla.
-                    </p>
+                    <p class="desc-title" id="lunch-title-2"></p>
+                    <p class="desc" id="lunch-desc-2"></p>
                 
                 </div>
 
                 <div class="breakfast-div">
                     <h3 class="breakfast-header"><a id="lunch-link">Lunch Menu</a></h3>
-                    <img src="images/mediterranean/lunch/turmeric-wrap.png" alt="Picture of french toast">
+                    <img id="lunch-img">
                 </div>
 
             </section>
@@ -74,21 +79,16 @@
 
                 <div class="breakfast-div">
                     <h3 class="breakfast-header"><a id="dinner-link">Dinner Menu</a></h3>
-                    <img src="images/mediterranean/dinner/broccoli-white-bean.png" alt="Picture of french toast">
+                    <img id="dinner-img">
                 </div>
 
                 <div>
-                    <p class="breakfast-desc-specials  desc-title"> Broccoli White Bean & Cheese Quiche </p>
-                    <p class="desc">
-                        A hearty, veggie-packed quiche with roasted broccoli, creamy beans, and 
-                        melty cheese.
-                    </p>
+                    
+                    <p class="desc-title" id="dinner-title-1"></p>
+                    <p class="desc" id="dinner-desc-1"></p>
 
-                    <p class="breakfast-desc-specials  desc-title">Chickpea & Sweet Potato Grain Bowls </p>
-                    <p class="desc">
-                        Roasted sweet potatoes and crispy chickpeas over farro or sorghum, topped with greens, avocado, feta, and a 
-                        creamy lemon-tahini yogurt dressing. Nourishing and full of flavor.
-                    </p>
+                    <p class="desc-title" id="dinner-title-2"></p>
+                    <p class="desc" id="dinner-desc-2"></p>
                 
                 </div>
 

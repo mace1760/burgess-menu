@@ -70,3 +70,14 @@ nav > ul {
     width: 100%;
   
 }
+
+#food-type {
+    background-color: gray;
+    border: 6px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
