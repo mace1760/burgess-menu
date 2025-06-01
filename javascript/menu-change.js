@@ -133,7 +133,7 @@ $(document).ready(function () {
             const brdesc1 = "A quick and wholesome breakfast featuring fluffy scrambled eggs with sautéed spinach, served alongside hearty whole-grain toast and fresh raspberries for a touch of sweetness."
             const brtitle2 = null;
             const brdesc2 = null;
-            const brimgsrc = "../images/mediterranean/breakfast/spinach-and-eggs.png"
+            const brimgsrc = "images/mediterranean/breakfast/spinach-and-eggs.png"
             const brimgalt = "Toast Eggs and Raspberrys"
 
             breakfastcontent(menutitle, brtitle1, brdesc1, brtitle2, brdesc2, brimgsrc, brimgalt)
@@ -143,7 +143,7 @@ $(document).ready(function () {
             const lunchdesc1 = "A fresh, flavorful salad packed with crunchy veggies, hearty chickpeas, tangy feta, and roasted red peppers, all tossed in a zesty Greek vinaigrette — perfect for a light lunch or easy side dish."
             const lunchtitle2 = "Turmeric Chicken & Avocado Wraps"
             const lunchdes2 = "Shredded chicken, chickpeas, walnuts, and raisins tossed in a spiced yogurt-mayo blend, wrapped with avocado and spring greens in a whole-wheat tortilla."
-            const lunchimgsrc = "../images/mediterranean/lunch/turmeric-wrap.png"
+            const lunchimgsrc = "images/mediterranean/lunch/turmeric-wrap.png"
             const lunchimgalt = "Picture of french toast"
 
             lunchconstent(lunchtitle1, lunchdesc1, lunchtitle2, lunchdes2,lunchimgsrc, lunchimgalt)
@@ -153,7 +153,7 @@ $(document).ready(function () {
             const dinnerdesc1 = "A hearty, veggie-packed quiche with roasted broccoli, creamy beans, and melty cheese."
             const dinnertitle2 = "Chickpea & Sweet Potato Grain Bowls"
             const dinnerdesc2 = "Roasted sweet potatoes and crispy chickpeas over farro or sorghum, topped with greens, avocado, feta, and creamy lemon-tahini yogurt dressing. Nourishing and full of flavor."
-            const dinnerimgsrc = "../images/mediterranean/dinner/broccoli-white-bean.png"
+            const dinnerimgsrc = "images/mediterranean/dinner/broccoli-white-bean.png"
             const dinnerimgalt = ""
 
             dinnerconstent(dinnertitle1, dinnerdesc1, dinnertitle2, dinnerdesc2, dinnerimgsrc, dinnerimgalt)
