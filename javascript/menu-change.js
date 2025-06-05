@@ -165,8 +165,8 @@ $(document).ready(function () {
 
             // Breakfast + Menu Title
             const menutitle = "Italian Menu"
-            const brtitle1 = "Chicken Voila"
-            const brdesc1 = " Tender chicken, rotini, and mixed veggies in a creamy Ranch-Parmesan sauce. Hearty, comforting, and packed with flavor in every bite."
+            const brtitle1 = ""
+            const brdesc1 = " "
             const brtitle2 = ""
             const brdesc2 = ""
             const brimgsrc = ""
@@ -185,12 +185,12 @@ $(document).ready(function () {
             lunchconstent(lunchtitle1, lunchdesc1, lunchtitle2, lunchdes2,lunchimgsrc, lunchimgalt)
 
             //Dinner
-            const dinnertitle1 = ""
-            const dinnerdesc1 = ""
-            const dinnertitle2 = ""
-            const dinnerdesc2 = ""
-            const dinnerimgsrc = ""
-            const dinnerimgalt = ""
+            const dinnertitle1 = "Chicken Voila"
+            const dinnerdesc1 = "Tender chicken, rotini, and mixed veggies in a creamy Ranch-Parmesan sauce. Hearty, comforting, and packed with flavor in every bite."
+            const dinnertitle2 = "Pasta Marinara (Carmine's)"
+            const dinnerdesc2 = "Al dente spaghetti, rigatoni, or penne tossed in Carmine’s signature marinara—slow-simmered with plum tomatoes, garlic, basil, and olive oil. Finished with fresh herbs and a sprinkle of Romano. Classic and comforting."
+            const dinnerimgsrc = "images/italian/dinner/chicken-voila.png"
+            const dinnerimgalt = "Chicken Voila"
 
             dinnerconstent(dinnertitle1, dinnerdesc1, dinnertitle2, dinnerdesc2, dinnerimgsrc, dinnerimgalt)
         }
