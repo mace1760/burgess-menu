@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles/home-page.css" />
+        <link rel="stylesheet" href="styles/home/home-header.css">
+        <link rel="stylesheet" href="styles/home/home-main.css">
         <title>Burgess Menu Home Page</title>
     </head>
 
@@ -12,86 +13,113 @@
             <h1>Burgess Menu</h1>
             <nav>
                 <ul>
-                    <li><a id="menu-link">Menu</a></li>
-                    <li><a href="sign-in.html"> Sign In </a></li>
+                    <!-- <li><a href="sign-in.html"> Sign In </a></li> -->
+                    <li>
+                        <select id="food-type">
+                            <option value="mediterranean" selected>Mediterranean</option>
+                            <option value="italian">Italian</option>
+                            <!-- <option value="mexican">Mexican</option>
+                            <option value="greek">Greek</option>
+                            <option value="indian">Indian</option> -->
+                        </select>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <h2> Meal Schedule</h2>
+        <main>
 
-        <section>
-            <table>
-                <thead>
-                    <caption> Meal Calendar </caption>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <h2 id="menu-title"></h2>
 
-                    <tr>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                    </tr>
+            <!-- -------------------- Breakfast -------------------- -->
 
-                    <tr>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                    </tr>
+            <section class="normal">
 
-                    <tr>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                    </tr>
+                <div class="breakfast-div">
+                    <h3 class="breakfast-header"><a id="breakfast-link">Breakfast Menu</a></h3>
+                    <img id="br-img">
+                </div>
 
-                    <tr>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                    </tr>
+                <div>
 
-                    <tr>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                        <td class="calendar-cell"> <div class="tooltip"></div></td>
-                    </tr>
+                    <p class="desc-title" id="br-title-1"></p>
+                    <p class="breakfast-desc desc" id="br-desc-1"></p>
 
-                </tbody>
-            </table>
-        </section>
+                    <p class="desc-title" id="br-title-2"></p>
+                    <p class="breakfast-desc desc" id="br-desc-2"></p>
+                
+                </div>
+
+            </section>
+
+            <!-- -------------------- Lunch -------------------- -->
+
+            <section class="reverse">
+
+                <div>
+                    
+                    <p class="desc-title" id="lunch-title-1"></p>
+                    <p class="desc" id="lunch-desc-1"></p>
+
+                    <p class="desc-title" id="lunch-title-2"></p>
+                    <p class="desc" id="lunch-desc-2"></p>
+                
+                </div>
+
+                <div class="breakfast-div">
+                    <h3 class="breakfast-header"><a id="lunch-link">Lunch Menu</a></h3>
+                    <img id="lunch-img">
+                </div>
+
+            </section>
+
+            <!-- -------------------- Dinner -------------------- -->
+
+           <section class="normal">
+
+                <div class="breakfast-div">
+                    <h3 class="breakfast-header"><a id="dinner-link">Dinner Menu</a></h3>
+                    <img id="dinner-img">
+                </div>
+
+                <div>
+                    
+                    <p class="desc-title" id="dinner-title-1"></p>
+                    <p class="desc" id="dinner-desc-1"></p>
+
+                    <p class="desc-title" id="dinner-title-2"></p>
+                    <p class="desc" id="dinner-desc-2"></p>
+                
+                </div>
+
+            </section>
+
+            <!-- Drinks, Snacks, and Desserts -->
+
+            <section class="breakfast-section">
+
+                <div class="breakfast-div">
+                    <h3 class="breakfast-header"><a href="breakfast-menu.html">Drink Menu</a></h3> 
+                </div>
+
+                <div class="breakfast-div">
+                    <h3 class="breakfast-header"><a href="menus/dessert-menu.html">Dessert Menu</a></h3>
+                </div>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <p>Coming soon (not really) access to everything</p>
+
+        </footer>
+
 
         <!-- Scripts (jQuery first, then your script) -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="javascript/index-page.js"></script>
+        <script src="javascript/menu-change.js"></script>
+
     </body>
 </html>
